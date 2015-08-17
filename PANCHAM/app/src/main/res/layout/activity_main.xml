@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/bground">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:id="@+id/signup"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="132dp"
+            android:background="#ff007744"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:maxLength="850"
+            android:maxWidth="91dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="@dimen/abc_text_size_large_material" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Are you already registered?"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/signup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:textStyle="bold"
+            android:textSize="@dimen/abc_text_size_large_material" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="SIGN IN"
+            android:id="@+id/signin"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:background="#00ffffff"
+            android:textColor="#ff007744"
+            android:textSize="@dimen/abc_text_size_large_material"
+
+            android:maxHeight="91dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+
+            android:maxHeight="80dp"
+            android:minHeight="70dp"
+            android:src="@drawable/lfulll"
+            android:layout_above="@+id/signup"
+            android:layout_alignRight="@+id/signup"
+            android:layout_alignEnd="@+id/signup"
+            android:layout_marginBottom="111dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:minHeight="20dp"
+            android:background="#ff007744"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hospital.pancham.pancham.loginpage"
+    android:background="@drawable/bground"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailin"
+        android:layout_marginBottom="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="email id"
+        android:background="#ffe6e6e6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordin"
+        android:layout_marginTop="44dp"
+        android:layout_alignTop="@+id/emailin"
+        android:layout_centerHorizontal="true"
+        android:text="password"
+        android:background="#0e6e6e6e" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:id="@+id/login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ff007744"
+        android:background="@android:color/transparent"
+        android:textSize="@dimen/abc_text_size_large_material" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:minHeight="20dp"
+        android:background="#ff007744"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView6"
+        android:src="@drawable/lfulll"
+        android:layout_marginBottom="161dp"
+        android:layout_above="@+id/emailin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" />
+
+
+</RelativeLayout>
